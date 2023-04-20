@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+  --primary-bg-color: hsl(212, 45%, 89%);
+  --card-bg-color: hsl(0, 0%, 100%);
+  --heading-text-color: hsl(218, 44%, 22%);
+  --para-text-color: hsl(220, 15%, 55%);
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background: var(--primary-bg-color);
+  line-height: 1.25;
+}
